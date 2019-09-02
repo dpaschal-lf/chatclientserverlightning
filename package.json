@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/dpaschal-lf/chatclientserverlightning/issues"
   },
-  "homepage": "https://github.com/dpaschal-lf/chatclientserverlightning#readme"
+  "homepage": "https://github.com/dpaschal-lf/chatclientserverlightning#readme",
+  "dependencies": {
+    "ws": "^7.1.2"
+  }
 }
