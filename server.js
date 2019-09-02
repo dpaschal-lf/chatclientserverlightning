@@ -10,6 +10,7 @@ ws.on('connection', function( conn ){
     console.log('got a connection!');
     conn.on('message', function( message ){
         console.log('got a message!', message);
+        conn.send('echo: ' + message);
     })
     conn.on('close', function(){
         console.log('connection closed!')
